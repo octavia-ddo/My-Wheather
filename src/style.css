@@ -1,0 +1,23 @@
+body {
+  background: linear-gradient(
+    109.6deg,
+    rgb(177, 173, 219) 11.2%,
+    rgb(245, 226, 226) 91.1%
+  );
+}
+
+.wheather {
+  margin-top: 13px;
+  text-align: center;
+}
+
+.container1 {
+  text-align: center;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  background: lightslategray;
+  color: #fff;
+}

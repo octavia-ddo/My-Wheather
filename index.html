@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>Weather</title>
+    <link rel="stylesheet" href="src/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <style></style>
+  <body>
+    <div class="container">
+      <div class="wheather">
+        <h1>☀️ Check the Weather</h1>
+
+        <form id="search-form">
+          <input type="text" 
+          placeholder="Enter the city name" 
+          autocomplete="off"
+          autofocus="on"
+          id="search-text-input"/>
+
+          <input type="submit" value="Search" />
+        </form>
+      </div>
+      <br />
+      <br />
+      <center><button>Your Curent Location</button></center>
+      <br />
+      <p id="your-location"><center></center></p>
+
+      <br />
+      <hr/>
+      <br />
+
+      <div class="container1">
+        <h4></h4>
+        <h2></h2>
+      </div>
+
+      <br/>
+      <br/>
+      <br/>
+      
+      
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="card" style="width: 18rem">
+              
+              <div class="card-body">
+                <h5 class="card-title" id="temperature"><center>Monday 28 °C</center></h5>
+
+                <p class="card-text" id="temperature-description"><center><h1>☀️</h1></center></p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem">
+              
+              <div class="card-body">
+                <h5 class="card-title"><center>Tuesday 25 °C|°F</center></h5>
+
+                <p class="card-text"><center><h1>🌧</h1></center></p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem">
+             
+              <div class="card-body">
+                <h5 class="card-title"><center>Wednesday 20 °C|°F</center></h5>
+                <p class="card-text"><center><h1>🌦</center></h1></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="src/script.js"></script>
+    
+  </body>
+</html>
